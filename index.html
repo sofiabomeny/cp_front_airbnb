@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casa de praia Pedra do Sal - Rio de Janeiro </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="airbnb-header">
+        <div class="container-cabecalho">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg" alt="Airbnb" class="logo">
+            <div class="barra-busca">
+                <span>Qualquer lugar</span>
+                <span class="divisor"></span>
+                <span>Qualquer hora</span>
+                <span class="divisor"></span>
+                <span>Hóspede?</span>
+                <button class="botao-busca">&#128269;</button>
+            </div>
+            <div class="acoes-cabecalho">
+                <a href="#">Anuncie seu espaço no Airbnb</a>
+                <button class="globe-btn">&#127760;</button>
+                <button class="menu-btn">&#9776;</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="main-title">Pedra do Sal - Natureza e Lazer - Rio de Janeiro</h1>
+        <section class="galeria">
+            <div class="galeria-main">
+                <img src="./imagens/foto1_casa.png" alt="Foto 1">
+            </div>
+            <div class="galeria-side">
+                <img src="./imagens/foto2_casa.jpg" alt="Foto 2">
+                <img src="./imagens/foto3_casa.jpg" alt="Foto 3">
+                <img src="./imagens/foto4_casa.jpg" alt="Foto 4">
+                <img src="./imagens/foto5_casa.jpg" alt="Foto 5">
+            </div>
+        </section>
+
+        <section class="info-card">
+            <div class="info-main">
+                <h2>Espaço inteiro: apartamento no Rio de Janeiro, Brasil</h2>
+                <p class="info-details">2 hóspedes · 1 quarto · 1 cama · 1 banheiro</p>
+                <div class="badges">
+                    <span class="badge">Preferido dos hóspedes</span>
+                    <span class="badge">5,0 ★ 50 avaliações</span>
+                </div>
+                <ul class="comodidades-list">
+                    <li>Wi-Fi;</li>
+                    <li>Acesso à praia;</li>
+                    <li>Estacionamento gratuito na entrada da propriedade: 1 vaga;</li>
+                    <li>Quintal compartilhado;</li>
+                    <li>Tranca na porta do quarto.</li>
+                </ul>
+            </div>
+            <div class="info-preco novo-card">
+                <div class="preco">
+                    <span class="preco-antigo">R$2.223</span>
+                    <span class="preco-atual">R$2.029</span>
+                    <span class="preco-periodo">por 9 noites</span>
+                </div>
+                <form class="reserva-card novo-reserva-card" autocomplete="off">
+                    <div class="reserva-row">
+                        <div>
+                            <label class="reserva-label">CHECK-IN</label>
+                            <span class="reserva-value">20/09/2025</span>
+                        </div>
+                        <div>
+                            <label class="reserva-label">CHECKOUT</label>
+                            <span class="reserva-value">24/09/2025</span>
+                        </div>
+                    </div>
+                    <div class="reserva-row">
+                        <div class="hospedes-dropdown">
+                            <label class="reserva-label" for="hospedes">HÓSPEDES</label>
+                             <span class="reserva-value">2 hóspedes</span>
+                                
+                               
+                            </select>
+                            <span class="reserva-dropdown">&#9660;</span>
+                        </div>
+                    </div>
+                </form>
+                <button class="botao-reservar" type="submit">Reservar</button>
+                <div class="reserva-info">Pagar 10% antecipado</div>
+            </div>
+        </section>
+
+        <section class="avaliacoes">
+            <h2>Avaliações</h2>
+            <div class="avaliacao">
+                <div>
+                    <strong>Felipe, São Paulo, Brasil</strong>
+                    <span>⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>Muito confortável, bem equipada e aconchegante. Um dos pontos que mais chamou a atenção foi o fundo da casa, com uma vista incrível para a praia — simplesmente de tirar o fôlego! Com certeza foi uma experiência muito boa e que recomendo sem pensar duas vezes..</p>
+            </div>
+            <div class="avaliacao">
+                <div>
+                    <strong>Yago, Cabo Frio, Brasil</strong>
+                    <span>⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>A acomodação foi ótima! Luiz foi muito simpático e me ajudou com tudo que precisei. 
+Localização é prefeita para quem quer aproveitar a natureza e as experiências do local</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Pedra do Sal | Hospedagem no Rio de Janeiro</p>
+    </footer>
 </body>
 </html>
